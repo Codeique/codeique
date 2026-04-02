@@ -357,7 +357,7 @@ export default function SystemsSection() {
           gridTemplateColumns: 'repeat(2, 1fr)',
           gap: 32,
         }}
-        className="systems-grid"
+          className="systems-grid"
         >
           {s.items.map((item, i) => (
             <SystemCard

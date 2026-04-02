@@ -8,92 +8,92 @@ export const translations = {
     },
 
     hero: {
-      tagline: 'We build software that thinks, scales, and delivers.',
-      sub: 'SaaS products · Web & Mobile Apps · AI Solutions · Business Automation',
-      cta: 'Explore our work',
-      ctaSecondary: 'Learn more',
+      tagline: 'Ship faster. Scale smarter. Automate everything.',
+      sub: 'SaaS · Web & Mobile Apps · AI Workflows · Turnkey Digital Tools',
+      cta: 'See what we build',
+      ctaSecondary: 'Let\'s talk',
     },
 
     ai: {
-      label: 'AI Automation',
-      title: 'Intelligent automation,',
-      titleAccent: 'real results.',
+      label: 'AI Workflows',
+      title: 'Put your business on ',
+      titleAccent: 'autopilot.',
       subtitle:
-        'We design and implement AI-powered workflows that eliminate repetitive tasks, reduce costs, and let your team focus on what matters most.',
+        'Stop wasting time on busywork. We build AI systems that handle the heavy lifting, so your team can focus on scaling.',
       cards: [
         {
-          title: 'Customer Support Automation',
-          desc: 'Deploy intelligent chatbots that handle inquiries 24/7, resolve issues instantly, and escalate complex cases — without hiring more staff.',
+          title: 'Smart Auto-Replies',
+          subtitle: 'Never miss a lead again.',
+          desc: "Customers don't wait. Our AI instantly replies to messages, answers FAQs, and qualifies leads 24/7—so you wake up to booked meetings, not unread messages.",
         },
         {
-          title: 'Sales & Lead Automation',
-          desc: 'Automate lead qualification, follow-up sequences, and CRM updates so your sales team spends time closing, not chasing.',
+          title: 'Frictionless Booking',
+          subtitle: 'Booking that just works.',
+          desc: 'Ditch the back-and-forth emails. Let clients book time directly on your calendar with automated reminders that eliminate scheduling headaches.',
         },
         {
-          title: 'Internal Workflow Automation',
-          desc: 'Streamline internal processes — task assignments, approvals, reporting — using smart automation built on n8n and AI logic.',
-        },
-        {
-          title: 'System Integrations',
-          desc: 'Connect your CRM, email, calendar, and data platforms into one unified flow. No silos, no manual sync, no wasted hours.',
+          title: 'Automated Reminders',
+          subtitle: 'Protect your cash flow and time.',
+          desc: 'No-shows cost you money. Keep your calendar full with automated SMS and email reminders that make showing up—or rescheduling—effortless for your clients.',
         },
       ],
     },
 
     systems: {
-      label: 'Our Products',
-      title: 'Subscription SaaS',
-      titleAccent: 'platforms.',
+      label: 'Our Stack',
+      title: 'Tools to ',
+      titleAccent: 'supercharge your growth.',
       subtitle:
-        'Proprietary systems built for real business problems. Powerful out of the box, no technical expertise required.',
-      badge: 'Subscription SaaS',
+        'Plug-and-play platforms designed to solve real startup problems—no dev team required.',
+      badge: 'Digital Tools',
       visit: 'Visit website',
       comingSoon: 'Coming soon',
+
       items: [
         {
           name: 'Botique',
-          desc: 'A chatbot platform that lets businesses implement automated customer communication in minutes. Explore bot types, test them live, and integrate on your site. Pricing scales with bot complexity — you only pay for what you use.',
+          desc: 'Deploy a custom AI chatbot in minutes. Engage users, capture leads, and support customers 24/7. Pay only for what you use.',
           url: 'https://botique.com',
         },
         {
           name: 'Webique',
-          desc: 'Create professional websites without a single line of code. Choose sections, fill in your content, and the system generates a complete, ready-to-launch site. Perfect for businesses and portfolios — available via monthly subscription.',
+          desc: 'Launch a killer website without touching a line of code. Just add your content and hit publish. Built for speed and conversion.',
           url: 'https://webique.rs',
         },
         {
           name: 'Shopique',
-          desc: 'Launch a fully featured online store without technical knowledge. Configure your design, add products, define filters — and your store is live within hours. Subscription pricing based on product count.',
+          desc: 'Spin up a fully-loaded online store in hours. Add products, pick a vibe, and start selling instantly. No tech headaches.',
           url: null,
         },
         {
           name: 'Remique',
-          desc: 'Automate payment reminders and collections. Enter payment details and the system sends timed reminders before, on, and after the due date — reducing late payments and improving your cash flow automatically.',
+          desc: 'Put your invoice chasing on autopilot. Automated payment reminders that shrink your late payments and keep your cash flow healthy.',
           url: 'https://remique.com',
         },
       ],
     },
 
     about: {
-      label: 'About Us',
-      title: 'Built to',
-      titleAccent: 'innovate.',
+      label: 'Who we are',
+      title: 'Built for ',
+      titleAccent: 'builders.',
       subtitle:
-        'We are a software company obsessed with craft — combining deep technical expertise with a relentless focus on business value.',
-      body: 'For over three years, Codeique has been helping businesses transform how they operate. From custom web and mobile applications to AI-powered automation and subscription SaaS products, we build software that doesn\'t just work — it drives growth. Our team believes that great software should be invisible: it should simply make everything around it better.',
+        'We’re a nimble team of developers and designers obsessed with shipping products people actually want to use.',
+      body: "We know what it takes to build from scratch. For over three years, Codeique has been the secret weapon behind growing brands and ambitious teams. Whether it's a custom app, a smart AI automation, or one of our turnkey tools, we build tech that gets out of your way and drives real growth.",
       stats: [
         { value: '3+', label: 'Years of experience' },
-        { value: '100+', label: 'Successful projects' },
-        { value: '4', label: 'SaaS products' },
-        { value: '∞', label: 'Lines of passion' },
+        { value: '25+', label: 'Successful projects' },
+        { value: '4', label: 'Digital products' },
+        { value: '∞', label: 'Passion for what we do' },
       ],
     },
 
     footer: {
-      tagline: 'Building software that thinks, scales, and delivers.',
+      tagline: 'Ship faster. Scale smarter. Automate everything.',
       nav: 'Navigation',
       products: 'Products',
       company: 'Company',
-      copyright: '© 2024 Codeique. All rights reserved.',
+      copyright: '© 2026 Codeique. All rights reserved.',
     },
   },
 
@@ -106,92 +106,91 @@ export const translations = {
     },
 
     hero: {
-      tagline: 'Gradimo softver koji razmišlja, skalira i isporučuje.',
-      sub: 'SaaS proizvodi · Web i mobilne aplikacije · AI rešenja · Automatizacija poslovanja',
-      cta: 'Istraži naš rad',
-      ctaSecondary: 'Saznaj više',
+      tagline: 'Brže lansiranje. Pametnije skaliranje.',
+      sub: 'SaaS · Web & mobilne aplikacije · AI procesi · No-Code alati',
+      cta: 'Pogledaj šta radimo',
+      ctaSecondary: 'Zakaži poziv',
     },
 
     ai: {
       label: 'AI Automatizacija',
-      title: 'Inteligentna automatizacija,',
-      titleAccent: 'stvarni rezultati.',
+      title: 'Stavi biznis na ',
+      titleAccent: 'autopilot.',
       subtitle:
-        'Projektujemo i implementiramo AI tokove rada koji eliminišu ponavljajuće zadatke, smanjuju troškove i omogućavaju vašem timu da se fokusira na ono što je važno.',
+        'Prestani da gubiš vreme na manuelne zadatke. Pravimo AI sisteme koji rade umesto tebe, kako bi tvoj tim mogao da se fokusira na rast.',
       cards: [
         {
-          title: 'Automatizacija korisničke podrške',
-          desc: 'Postavite inteligentne chatbotove koji odgovaraju 24/7, rešavaju probleme trenutno i eskaliraju složene slučajeve — bez zapošljavanja više osoblja.',
+          title: 'Pametni Chatbotovi',
+          subtitle: 'Nikad više ne propusti klijenta.',
+          desc: 'Kupci ne vole da čekaju. Naš AI automatski odgovara na poruke i kvalifikuje lidove 24/7 — tako da se budiš sa novim klijentima, a ne nepročitanim porukama.',
         },
         {
-          title: 'Automatizacija prodaje i leadova',
-          desc: 'Automatizujte kvalifikaciju leadova, sekvence praćenja i ažuriranje CRM-a kako bi vaš prodajni tim više vremena trošio na zatvaranje, a manje na praćenje.',
+          title: 'Zakazivanje bez stresa',
+          subtitle: 'Booking koji jednostavno radi.',
+          desc: 'Zaboravi na beskonačno dopisivanje oko termina. Klijenti sami biraju vreme koje im odgovara, pravo u tvoj kalendar, uz automatske podsetnike.',
         },
         {
-          title: 'Automatizacija internih procesa',
-          desc: 'Unapredite interne procese — dodelu zadataka, odobrenja, izveštavanje — koristeći pametnu automatizaciju baziranu na n8n i AI logici.',
-        },
-        {
-          title: 'Integracija sistema',
-          desc: 'Povežite vaš CRM, email, kalendar i podatkovne platforme u jedan ujedinjeni tok. Bez silosova, bez ručne sinhronizacije, bez izgubljenih sati.',
+          title: 'Automatski podsetnici',
+          subtitle: 'Smanji otkazivanja i zaštiti prihode.',
+          desc: 'Propušteni termini te koštaju. Automatski SMS i email podsetnici osiguravaju da se klijenti pojave, a pomeranje termina čine maksimalno lakim.',
         },
       ],
     },
 
     systems: {
       label: 'Naši proizvodi',
-      title: 'Pretplatni SaaS',
-      titleAccent: 'platforme.',
+      title: 'Alati koji ',
+      titleAccent: 'ubrzavaju rast.',
       subtitle:
-        'Vlastiti sistemi izgrađeni za stvarne poslovne probleme. Moćni odmah, bez tehničkog znanja.',
-      badge: 'Pretplatni SaaS',
+        'Gotove platforme koje odmah rešavaju probleme — bez potrebe za tvojim programerima.',
+      badge: 'Digitalni alati',
       visit: 'Posetite sajt',
       comingSoon: 'Uskoro dostupno',
       items: [
         {
           name: 'Botique',
-          desc: 'Platforma za chatbotove koja firmama omogućava implementaciju automatizovane komunikacije sa kupcima za nekoliko minuta. Istražite vrste botova, testirajte ih uživo i integrisajte na svom sajtu. Cena zavisi od složenosti bota.',
+          desc: 'Lansiraj custom AI chatbota za par minuta. Angažuj posetioce i sakupljaj lidove 24/7. Plaćaj samo onoliko koliko ga koristiš.',
           url: 'https://botique.com',
         },
         {
           name: 'Webique',
-          desc: 'Kreirajte profesionalne sajtove bez ijedne linije koda. Odaberite sekcije, unesite sadržaj i sistem generiše kompletan sajt spreman za pokretanje. Savršeno za firme i portfelje — dostupno putem mesečne pretplate.',
+          desc: 'Napravi vrhunski sajt bez kucanja koda. Ubaci svoj sadržaj i lansiraj odmah. Optimizovan za brzinu i prodaju.',
           url: 'https://webique.rs',
         },
         {
           name: 'Shopique',
-          desc: 'Pokrenite potpuno opremljenu online prodavnicu bez tehničkog znanja. Konfigurišite dizajn, dodajte proizvode, definišite filtere — i vaša prodavnica je živa za nekoliko sati. Pretplatna cena bazirana na broju proizvoda.',
-          url: null,
+          desc: 'Pokreni dizajniran web shop za nekoliko sati. Dodaj proizvode i kreni sa prodajom. Zaboravi na tehničke prepreke.',
+          url: 'https://shopique.com',
         },
         {
           name: 'Remique',
-          desc: 'Automatizujte podsetike za plaćanje i naplatu. Unesite detalje plaćanja i sistem šalje podsetike pre, na i posle roka dospeća — smanjujući kasna plaćanja i automatski poboljšavajući vaš novčani tok.',
+          desc: 'Stavi naplatu potraživanja na autopilot. Automatski podsetnici koji smanjuju kašnjenje uplata i održavaju zdrav keš flow.',
           url: 'https://remique.com',
         },
       ],
     },
 
     about: {
-      label: 'O nama',
-      title: 'Izgrađeni za',
-      titleAccent: 'inovaciju.',
+      label: 'Ko smo mi',
+      title: 'Pravljeno za ',
+      titleAccent: 'kreatore.',
       subtitle:
-        'Mi smo softverska kompanija opsjednuta zanatom — kombinujemo duboku tehničku ekspertizu sa bezgraničnim fokusom na poslovnu vrednost.',
-      body: 'Više od tri godine, Codeique pomaže firmama da transformišu način na koji posluju. Od custom web i mobilnih aplikacija do AI automatizacije i pretplatnih SaaS proizvoda — gradimo softver koji ne samo da funkcioniše, već pokreće rast. Naš tim veruje da dobar softver treba da bude nevidljiv: treba samo da sve oko njega učini boljim.',
+        'Mali, brz tim developera i dizajnera sa misijom da naprave proizvode koje ljudi zapravo žele da koriste.',
+      body: 'Znamo šta je potrebno da izgradiš nešto od nule. Više od tri godine, Codeique je tajno oružje za ambiciozne timove. Bilo da ti treba custom aplikacija, pametna AI automatizacija ili gotov alat, pravimo softver koji ti sklanja prepreke sa puta i donosi rast.',
       stats: [
         { value: '3+', label: 'Godine iskustva' },
-        { value: '100+', label: 'Uspešnih projekata' },
-        { value: '4', label: 'SaaS proizvoda' },
+        { value: '25+', label: 'Uspešnih projekata' },
+        { value: '4', label: 'Digitalna sistema' },
         { value: '∞', label: 'Linija strasti' },
       ],
     },
 
     footer: {
-      tagline: 'Gradimo softver koji razmišlja, skalira i isporučuje.',
+      tagline: 'Brže lansiranje. Pametnije skaliranje.',
       nav: 'Navigacija',
       products: 'Proizvodi',
       company: 'Kompanija',
-      copyright: '© 2024 Codeique. Sva prava zadržana.',
+      copyright: '© 2026 Codeique. Sva prava zadržana.',
     },
   },
-}
+};
