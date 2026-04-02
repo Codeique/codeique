@@ -5,6 +5,7 @@ export const translations = {
       ai: 'AI',
       systems: 'Systems',
       about: 'About',
+      contact: 'Contact',
     },
 
     hero: {
@@ -95,6 +96,14 @@ export const translations = {
       company: 'Company',
       copyright: '© 2026 Codeique. All rights reserved.',
     },
+
+    contact: {
+      label: 'Get in touch',
+      title: 'Let\'s ',
+      titleAccent: 'talk.',
+      subtitle: 'Ready to build something amazing? Send us an email and we\'ll get back to you within 24 hours.',
+      button: 'Email Us',
+    },
   },
 
   sr: {
@@ -103,6 +112,7 @@ export const translations = {
       ai: 'AI',
       systems: 'Sistemi',
       about: 'O nama',
+      contact: 'Kontakt',
     },
 
     hero: {
@@ -191,6 +201,14 @@ export const translations = {
       products: 'Proizvodi',
       company: 'Kompanija',
       copyright: '© 2026 Codeique. Sva prava zadržana.',
+    },
+
+    contact: {
+      label: 'Kontaktirajte nas',
+      title: 'Hajde da ',
+      titleAccent: 'pričamo.',
+      subtitle: 'Spremni da napravimo nešto sjajno? Pošaljite nam email i odgovorićemo Vam u roku od 24 sata.',
+      button: 'Pošaljite Email',
     },
   },
 };

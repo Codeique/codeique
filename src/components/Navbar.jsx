@@ -37,6 +37,7 @@ export default function Navbar() {
     { key: 'ai', href: '#ai' },
     { key: 'systems', href: '#systems' },
     { key: 'about', href: '#about' },
+    { key: 'contact', href: '#contact' },
   ]
 
   const handleLink = (e, href) => {

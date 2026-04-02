@@ -7,6 +7,7 @@ const navLinks = [
   { key: 'ai', href: '#ai' },
   { key: 'systems', href: '#systems' },
   { key: 'about', href: '#about' },
+  { key: 'contact', href: '#contact' },
 ]
 
 const products = [
