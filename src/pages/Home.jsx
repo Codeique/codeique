@@ -7,6 +7,7 @@ import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
 import BackgroundShapes from '../components/BackgroundShapes'
 import ScrollProgress from '../components/ScrollProgress'
+import ChatWidget from '../components/ChatWidget'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <SystemsSection />
         <AboutSection />
         <ContactSection />
+        <ChatWidget />
       </main>
       <Footer />
     </>

@@ -104,6 +104,21 @@ export const translations = {
       subtitle: 'Ready to build something amazing? Send us an email and we\'ll get back to you within 24 hours.',
       button: 'Email Us',
     },
+
+    chat: {
+      status: 'Online now',
+      restartTitle: 'Restart chat',
+      closeTitle: 'Close',
+      namePlaceholder: 'Your name',
+      emailPlaceholder: 'Your email',
+      messagePlaceholder: 'Your message (optional)',
+      sending: 'Sending…',
+      send: 'Send message →',
+      sent: "✅ Message sent! We'll be in touch shortly.",
+      error: 'Something went wrong. Please try again.',
+      footer: 'Powered by',
+      followUp: 'Thanks! While you wait, feel free to explore more ⬇️',
+    },
   },
 
   sr: {
@@ -209,6 +224,21 @@ export const translations = {
       titleAccent: 'pričamo.',
       subtitle: 'Spremni da napravimo nešto sjajno? Pošaljite nam email i odgovorićemo Vam u roku od 24 sata.',
       button: 'Pošaljite Email',
+    },
+
+    chat: {
+      status: 'Aktivan',
+      restartTitle: 'Resetuj razgovor',
+      closeTitle: 'Zatvori',
+      namePlaceholder: 'Vaše ime',
+      emailPlaceholder: 'Vaš email',
+      messagePlaceholder: 'Vaša poruka (opciono)',
+      sending: 'Slanje…',
+      send: 'Pošalji poruku →',
+      sent: '✅ Poruka poslata! Javićemo Vam se uskoro.',
+      error: 'Nešto nije u redu. Pokušajte ponovo.',
+      footer: 'Pokreće',
+      followUp: 'Hvala! Dok čekate, slobodno istražite više ⬇️',
     },
   },
 };

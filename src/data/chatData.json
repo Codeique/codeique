@@ -1,0 +1,387 @@
+{
+  "start": {
+    "id": "start",
+    "type": "bot",
+    "message": {
+      "en": "Hey 👋 I'm one of the Botiques — your guide. What are you interested in?",
+      "sr": "Hej 👋 Ja sam jedan od Botique-ova — tvoj vodič. Šta te zanima?"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "What do we do?",
+          "sr": "Šta mi radimo?"
+        },
+        "next": "what_we_do"
+      },
+      {
+        "label": {
+          "en": "What problems do we solve?",
+          "sr": "Koje probleme rešavamo?"
+        },
+        "next": "problems_we_solve"
+      },
+      {
+        "label": {
+          "en": "Find out our products",
+          "sr": "Naši proizvodi"
+        },
+        "next": "our_products"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "📬 Contact us",
+          "sr": "📬 Kontaktiraj nas"
+        },
+        "next": "contact"
+      }
+    ]
+  },
+  "what_we_do": {
+    "id": "what_we_do",
+    "type": "bot",
+    "message": {
+      "en": "We build smart automation tools and AI-powered products that help businesses and entrepreneurs run faster — without developers and a large budget.\n\nFrom building websites in a few minutes to automatically collecting payments, we turn complex processes into simple software. Our mission: give every business the tools that until now were reserved for corporations.",
+      "sr": "Pravimo pametne alate za automatizaciju i AI proizvode koji pomažu preduzećima i preduzetnicima da rade brže — bez programera i velikog budžeta.\n\nOd izgradnje sajtova za par minuta do automatskog prikupljanja uplata, kompleksne procese pretvaramo u jednostavan softver. Naša misija: dati svakom biznisu alate koji su do sada bili rezervisani za korporacije."
+    },
+    "options": [
+      {
+        "label": {
+          "en": "Find out our products",
+          "sr": "Naši proizvodi"
+        },
+        "next": "our_products"
+      },
+      {
+        "label": {
+          "en": "What problems do we solve?",
+          "sr": "Koje probleme rešavamo?"
+        },
+        "next": "problems_we_solve"
+      },
+      {
+        "label": {
+          "en": "📬 Contact us",
+          "sr": "📬 Kontaktiraj nas"
+        },
+        "next": "contact"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to start",
+          "sr": "⬅️ Nazad na početak"
+        },
+        "next": "start"
+      }
+    ]
+  },
+  "problems_we_solve": {
+    "id": "problems_we_solve",
+    "type": "bot",
+    "message": {
+      "en": "Most businesses hit the same walls:\n\n⏱️ Wasted hours on repetitive tasks\n💸 Late payments destroy cash flow\n🌐 No website or paying too much for it\n🛒 Can't afford developers for a web shop\n🤖 Missing out on 24/7 client engagement\n\nWe built one product for each of these problems — affordable, fast to set up and built for people who aren't IT experts.",
+      "sr": "Većina biznisa nailazi na iste prepreke:\n\n⏱️ Izgubljeni sati na ponavljajuće zadatke\n💸 Zakasnele uplate uništavaju keš flow\n🌐 Nema sajt ili plaća previše za njega\n🛒 Ne može da priušti programere za web shop\n🤖 Propušta angažman klijenata 24/7\n\nNapravili smo po jedan proizvod za svaki od ovih problema — pristupačno, brzo za postavljanje i napravljeno za ljude koji nisu IT stručnjaci."
+    },
+    "options": [
+      {
+        "label": {
+          "en": "Find out our products",
+          "sr": "Naši proizvodi"
+        },
+        "next": "our_products"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "📬 Contact us",
+          "sr": "📬 Kontaktiraj nas"
+        },
+        "next": "contact"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to start",
+          "sr": "⬅️ Nazad na početak"
+        },
+        "next": "start"
+      }
+    ]
+  },
+  "our_products": {
+    "id": "our_products",
+    "type": "bot",
+    "message": {
+      "en": "We have 4 products for modern businesses. Which one are you interested in?",
+      "sr": "Imamo 4 proizvoda za moderne biznise. Koji te zanima?"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "🌐 Webique — Website generator",
+          "sr": "🌐 Webique — Generator sajtova"
+        },
+        "next": "webique"
+      },
+      {
+        "label": {
+          "en": "🔔 Remique — Payment reminders",
+          "sr": "🔔 Remique — Podsetnici za uplate"
+        },
+        "next": "remique"
+      },
+      {
+        "label": {
+          "en": "🤖 Botique — AI chatbot",
+          "sr": "🤖 Botique — AI chatbot"
+        },
+        "next": "botique"
+      },
+      {
+        "label": {
+          "en": "🛒 Shopique — Online store",
+          "sr": "🛒 Shopique — Online prodavnica"
+        },
+        "next": "shopique"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to start",
+          "sr": "⬅️ Nazad na početak"
+        },
+        "next": "start"
+      }
+    ]
+  },
+  "webique": {
+    "id": "webique",
+    "type": "bot",
+    "message": {
+      "en": "🌐 **Webique** — Build a premium website without a single line of code.\n\nWebique is an ultra-simple drag-and-drop website generator designed for speed. Just add content, arrange blocks and click publish. Your website is live in under 10 minutes — literally.\n\nBuilt for conversion, not for confusion. No complex editor, no subscriptions to 5 different tools. You get a fast, professional site that gets results.\n\n✅ Drag & drop — no more code ever\n✅ Live in 10 minutes\n✅ Optimized for speed & sales\n✅ Perfect for freelancers, businesses & agencies",
+      "sr": "🌐 **Webique** — Napravi vrhunski sajt bez ijednog reda koda.\n\nWebique je ultra-jednostavan drag-and-drop generator sajtova dizajniran za brzinu. Samo dodaj sadržaj, posloži blokove i klikni objavi. Tvoj sajt je živ za manje od 10 minuta — bukvalno.\n\nNapravljen za konverziju, ne za zbunjivanje. Bez kompleksnog editora, bez pretplate na 5 različitih alata. Dobijaš brz, profesionalan sajt koji daje rezultate.\n\n✅ Drag & drop — nikad više koda\n✅ Živ za 10 minuta\n✅ Optimizovan za brzinu i prodaju\n✅ Savršen za frilensere, biznise i agencije"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "🔔 Tell me about Remique",
+          "sr": "🔔 Reci mi o Remique"
+        },
+        "next": "remique"
+      },
+      {
+        "label": {
+          "en": "🤖 Tell me about Botique",
+          "sr": "🤖 Reci mi o Botique"
+        },
+        "next": "botique"
+      },
+      {
+        "label": {
+          "en": "🛒 Tell me about Shopique",
+          "sr": "🛒 Reci mi o Shopique"
+        },
+        "next": "shopique"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to products",
+          "sr": "⬅️ Nazad na proizvode"
+        },
+        "next": "our_products"
+      }
+    ]
+  },
+  "remique": {
+    "id": "remique",
+    "type": "bot",
+    "message": {
+      "en": "🔔 **Remique** — Put your debt collection on autopilot.\n\nChasing clients for payment is exhausting, awkward and eats your time. Remique eliminates that completely. Connect invoices, set reminder schedules and Remique automatically tracks clients — politely, but persistently.\n\nNo more uncomfortable calls. No more forgotten invoices. Your cash flow stays healthy while you focus on what actually drives the business.\n\n✅ Automated reminders via email, SMS, Viber, WhatsApp\n✅ Customizable reminder schedules\n✅ Drastically reduces late payments\n✅ Works while you sleep",
+      "sr": "🔔 **Remique** — Stavi naplatu potraživanja na autopilot.\n\nJurenje klijenata za uplatu je iscrpljujuće, neprijatno i jede tvoje vreme. Remique to u potpunosti eliminiše. Poveži fakture, podesi raspored podsetnika i Remique automatski prati klijente — ljubazno, ali uporno.\n\nNema više neprijatnih poziva. Nema više zaboravljenih faktura. Tvoj keš flow ostaje zdrav dok ti se fokusiraš na ono što zaista pokreće biznis.\n\n✅ Automatski podsetnici putem email-a, SMS-a, Viber-a, WhatsApp-a\n✅ Prilagodljivi rasporedi podsetnika\n✅ Drastično smanjuje kašnjenja uplata\n✅ Radi dok ti spavaš"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "🌐 Tell me about Webique",
+          "sr": "🌐 Reci mi o Webique"
+        },
+        "next": "webique"
+      },
+      {
+        "label": {
+          "en": "🤖 Tell me about Botique",
+          "sr": "🤖 Reci mi o Botique"
+        },
+        "next": "botique"
+      },
+      {
+        "label": {
+          "en": "🛒 Tell me about Shopique",
+          "sr": "🛒 Reci mi o Shopique"
+        },
+        "next": "shopique"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to products",
+          "sr": "⬅️ Nazad na proizvode"
+        },
+        "next": "our_products"
+      }
+    ]
+  },
+  "botique": {
+    "id": "botique",
+    "type": "bot",
+    "message": {
+      "en": "🤖 **Botique** — Your custom AI chatbot, live in a few minutes.\n\nYou're actually talking to Botique right now — this chat is a live example.\n\nBotique allows you to set up a custom chatbot on your site that engages visitors, answers questions, collects leads and supports clients — 24 hours a day, 7 days a week. While you sleep, it works.\n\nNo need for developers. You define questions and answers, we handle the rest. Pay only for what you use — without fat monthly subscriptions.\n\n✅ Live 24/7 — never misses a lead\n✅ Custom Q&A or AI-powered conversations\n✅ Lead capture built in\n✅ Embed it anywhere in a few minutes",
+      "sr": "🤖 **Botique** — Tvoj custom AI chatbot, živ za par minuta.\n\nUpravao pričaš sa Botique-om — ovaj chat je živi primer.\n\nBotique ti omogućava da postaviš custom chatbota na svom sajtu koji angažuje posetioce, odgovara na pitanja, sakuplja lidove i podržava klijente — 24 sata dnevno, 7 dana u nedelji. Dok ti spavaš, on radi.\n\nNema potrebe za developerima. Ti definišeš pitanja i odgovore, mi se brinemo za ostalo. Plaćaj samo onoliko koliko koristiš — bez gojaznih mesečnih pretplata.\n\n✅ Živ 24/7 — nikad ne propušta lid\n✅ Custom Q&A ili AI-pokretani razgovori\n✅ Prikupljanje lidova ugrađeno\n✅ Ugradi ga bilo gde za par minuta"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "🌐 Tell me about Webique",
+          "sr": "🌐 Reci mi o Webique"
+        },
+        "next": "webique"
+      },
+      {
+        "label": {
+          "en": "🔔 Tell me about Remique",
+          "sr": "🔔 Reci mi o Remique"
+        },
+        "next": "remique"
+      },
+      {
+        "label": {
+          "en": "🛒 Tell me about Shopique",
+          "sr": "🛒 Reci mi o Shopique"
+        },
+        "next": "shopique"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to products",
+          "sr": "⬅️ Nazad na proizvode"
+        },
+        "next": "our_products"
+      }
+    ]
+  },
+  "shopique": {
+    "id": "shopique",
+    "type": "bot",
+    "message": {
+      "en": "🛒 **Shopique** — Launch a fully equipped online store in a few hours.\n\nShopique is an ultra-simple web shop generator. Add products and they're visible immediately — no waiting, no approval process. Add categories, filters, descriptions and images. The store is ready for selling.\n\nNo technical headaches. No developer invoices. Just choose a style, add products and start selling. Built for people who want to move fast and look great.\n\n✅ Products visible immediately after adding\n✅ Categories, filters and product pages included\n✅ Beautiful layouts, without design skills\n✅ From zero to selling in a few hours",
+      "sr": "🛒 **Shopique** — Pokreni potpuno opremljenu online prodavnicu za par sati.\n\nShopique je ultra-jednostavan generator web shopova. Dodaj proizvode i odmah su vidljivi — bez čekanja, bez procesa odobravanja. Dodaj kategorije, filtere, opise i slike. Prodavnica je spremna za prodaju.\n\nNema tehničkih glavobolja. Nema faktura za developere. Samo izaberi stil, dodaj proizvode i počni da prodaješ. Napravljeno za ljude koji žele da se kreću brzo i izgledaju sjajno.\n\n✅ Proizvodi vidljivi odmah nakon dodavanja\n✅ Kategorije, filteri i stranice proizvoda uključeni\n✅ Prelepi izgledi, bez veština dizajniranja\n✅ Od nule do prodaje za par sati"
+    },
+    "options": [
+      {
+        "label": {
+          "en": "🌐 Tell me about Webique",
+          "sr": "🌐 Reci mi o Webique"
+        },
+        "next": "webique"
+      },
+      {
+        "label": {
+          "en": "🔔 Tell me about Remique",
+          "sr": "🔔 Reci mi o Remique"
+        },
+        "next": "remique"
+      },
+      {
+        "label": {
+          "en": "🤖 Tell me about Botique",
+          "sr": "🤖 Reci mi o Botique"
+        },
+        "next": "botique"
+      },
+      {
+        "label": {
+          "en": "How do you get started?",
+          "sr": "Kako da počneš?"
+        },
+        "next": "get_started"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to products",
+          "sr": "⬅️ Nazad na proizvode"
+        },
+        "next": "our_products"
+      }
+    ]
+  },
+  "get_started": {
+    "id": "get_started",
+    "type": "bot",
+    "message": {
+      "en": "Starting is simple — without long onboarding, without sales calls.\n\n1️⃣ Choose the product that fits your problem\n2️⃣ Register — most products are live the same day\n3️⃣ If you need something custom, reach out to us and we'll jointly define the scope\n\nUnsure which product is right for you? Send us a message and we'll point you in the right direction.",
+      "sr": "Početak je jednostavan — bez dugotrajnog uvođenja, bez prodajnih poziva.\n\n1️⃣ Izaberi proizvod koji odgovara tvom problemu\n2️⃣ Registruj se — većina proizvoda je živa isti dan\n3️⃣ Ako ti treba nešto custom, javi nam se i zajednički ćemo definisati obim\n\nNisi siguran koji proizvod je pravi za tebe? Pošalji nam poruku i usmerićemo te u pravom smeru."
+    },
+    "options": [
+      {
+        "label": {
+          "en": "📬 Contact us",
+          "sr": "📬 Kontaktiraj nas"
+        },
+        "next": "contact"
+      },
+      {
+        "label": {
+          "en": "Find out our products",
+          "sr": "Naši proizvodi"
+        },
+        "next": "our_products"
+      },
+      {
+        "label": {
+          "en": "⬅️ Back to start",
+          "sr": "⬅️ Nazad na početak"
+        },
+        "next": "start"
+      }
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "type": "contact_form",
+    "message": {
+      "en": "We're glad you're contacting us! Fill in the details below and we'll get back to you shortly. 🚀",
+      "sr": "Drago nam je da ćeš nas kontaktirati! Popuni podatke ispod i javićemo ti se uskoro. 🚀"
+    }
+  }
+}
