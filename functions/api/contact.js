@@ -7,9 +7,8 @@
 //   same-origin proxy — the browser calls /api/contact (no CORS), and this
 //   Worker calls GAS server-to-server (no browser restrictions).
 // ──────────────────────────────────────────────────────────────────────────
-
 const GAS_URL =
-  "https://script.google.com/macros/s/AKfycbxaa7hyYgAGN_ZJfiS2V3ivzvNMBVf3na_gwWRQgvAFni6EPHpyUYwUbJV0SWyW5baD/exec";
+  "https://script.google.com/macros/s/AKfycby9flZrBV_0sa-Qcpdrstn0EyHiVExrx5r5ZEyvRqVEhODTyW5fDPDDLN_U3N_TBgJ9/exec";
 
 export async function onRequestPost(context) {
   try {
